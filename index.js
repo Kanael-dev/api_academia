@@ -13,7 +13,7 @@ app.use(cors());
 // Variáveis de ambiente
 const userNameMongo = process.env.USER_NAME;
 const userPasswordMongo = process.env.USER_PASSWORD;
-const dbName = 'mydb'; // Nome do banco de dados
+const dbName = 'aplicacao'; // Nome do banco de dados
 
 // Configuração para ler o JSON
 app.use(express.urlencoded({ extended: true }));
