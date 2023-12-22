@@ -3,7 +3,7 @@ const Planos = require("../models/Planos.js");
 const verificarToken = require('../middlwares/authMiddleware.js');
 const jwt = require('jsonwebtoken');
 
-
+// Listar todos os planos
 router.get("/", async (req, res) => {
 
   try {
